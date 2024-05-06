@@ -7,7 +7,7 @@ export const SidebarContainer = styled.div`
   z-index: 100;
   display: flex;
   background-color: var(--background);
-  width: 103px;
+  width: 93px;
   height: 100vh;
 `;
 

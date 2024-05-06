@@ -13,7 +13,7 @@ export const Ul = styled.ul`
   display: flex;
   justify-content: space-around;
   padding: 27px 40px 12px;
-  margin-bottom: 44px;
+  margin-bottom: 31px;
 `;
 
 export const ArtistImage = styled.div`
@@ -222,7 +222,7 @@ export const Popularity = styled.div``;
 export const VideosInfo = styled.div`
   text-align: center;
   background-color: var(--hover-button);
-  padding: 31px 23px 27px;
+  padding: 31px 24px 27px;
 
   p {
     font-size: 13px;
@@ -234,14 +234,17 @@ export const VideosInfo = styled.div`
   .amount {
     font-size: 40px;
     font-weight: bold;
-    margin: 18px;
+    margin-bottom: 18px;
   }
   .play-button {
     margin: 0 auto;
     color: var(--accent-color);
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    gap: 6px;
     p {
+      white-space: nowrap;
       color: var(--accent-color);
     }
   }
@@ -258,7 +261,7 @@ export const Growth = styled.div`
     font-weight: 600;
     margin-bottom: 18px;
   }
-  span{
+  span {
     font-size: 32px;
     font-weight: bold;
   }
