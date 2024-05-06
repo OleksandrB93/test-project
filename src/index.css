@@ -1,0 +1,21 @@
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.gap {
+  gap: 5px;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
