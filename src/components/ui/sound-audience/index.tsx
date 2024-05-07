@@ -1,4 +1,5 @@
 import ChairIcon from "../../svg-icons/chair-icon";
+import HeartIcon from "../../svg-icons/heart-icon";
 import MusicIcon from "../../svg-icons/music-icon";
 import OtherIcon from "../../svg-icons/other-icon";
 import PeopleIcon from "../../svg-icons/people-icon";
@@ -6,7 +7,6 @@ import PerfomenceIcon from "../../svg-icons/perfomence-icon";
 import SoccerIcon from "../../svg-icons/soccer-icon";
 import TreeIcon from "../../svg-icons/three-icon";
 import * as s from "./sound-audience.styled";
-import { FaHandHoldingHeart } from "react-icons/fa";
 
 const SoundAudienceComponent = () => {
   const list = [
@@ -15,7 +15,7 @@ const SoundAudienceComponent = () => {
     { id: 3, icon: <TreeIcon />, name: "Travel", value: "22%" },
     { id: 4, icon: <PerfomenceIcon />, name: "Show", value: "14%" },
     { id: 5, icon: <SoccerIcon />, name: "Sport", value: "12%" },
-    { id: 6, icon: <FaHandHoldingHeart />, name: "Health", value: "9%" },
+    { id: 6, icon: <HeartIcon />, name: "Health", value: "9%" },
     { id: 7, icon: <OtherIcon />, name: "Other", value: "6%" },
   ];
 
