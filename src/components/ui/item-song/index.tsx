@@ -1,5 +1,4 @@
 import * as s from "./item-song.styled";
-import { FaPlay } from "react-icons/fa";
 import InfoComponent from "./info-component";
 import TrendingComponent from "./trending-component";
 import RatingComponent from "./rating-component";
@@ -18,12 +17,6 @@ const ItemSongComponetn = () => {
       <div className="flex">
         <s.Container>
           <s.Ul>
-            {/* <s.ArtistImage>
-              <img src="src/assets/images/artist_image.png" alt="artist" />
-              <button>
-                <FaPlay size={12} />
-              </button>
-            </s.ArtistImage> */}
             <s.FirstLi>
               <InfoComponent />
             </s.FirstLi>

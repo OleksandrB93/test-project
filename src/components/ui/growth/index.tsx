@@ -3,6 +3,7 @@ import StarsIcon from "../../svg-icons/stars-icon";
 import * as s from "./growth.styled";
 import { AiFillLike } from "react-icons/ai";
 import { HiLocationMarker } from "react-icons/hi";
+import ChartComponent from "./chart-component";
 
 const characteristics = [
   {
@@ -46,6 +47,8 @@ const GrowthComponent = () => {
           </li>
         ))}
       </s.Ul>
+      {/* <BarStacked /> */}
+      <ChartComponent />
     </s.Section>
   );
 };

@@ -241,7 +241,6 @@ export const VideosInfo = styled.div`
     color: var(--accent-color);
     display: flex;
     justify-content: space-around;
-    align-items: center;
     gap: 6px;
     p {
       white-space: nowrap;

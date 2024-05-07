@@ -33,6 +33,24 @@ const GlobalStyle = createGlobalStyle`
       background-color: var(--background);
       color: var(--foreground);
       font-family: var(--font-family);
+      max-width: 1053px;
+      margin: 0 auto;
+    }
+
+    //scrollbar
+    body,
+    html {
+      &::-webkit-scrollbar {
+        width: 10px !important;
+      }
+      &::-webkit-scrollbar-track {
+        background: #131314;
+        border-radius: 10px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: #00ff940d !important;
+        border-radius: 10px;
+      }
     }
 `;
 
