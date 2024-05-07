@@ -17,7 +17,7 @@ export const Sidebar = styled.div`
   height: 100vh;
   color: var(--foreground);
 
-  background-image: url("src/assets/images/blur_sidebar.png");
+  background-image: url("/images/blur_sidebar.png");
   background-position: -30px -57px;
 
   &::before {
@@ -58,12 +58,12 @@ export const SidebarButton = styled.div`
   display: flex;
   align-items: center;
   justify-content: end;
-  stroke: #5F6062;
+  stroke: #5f6062;
   cursor: pointer;
 
   transition: var(--transition);
 
-  &:hover{
+  &:hover {
     stroke: white;
     background-color: var(--hover-button);
   }

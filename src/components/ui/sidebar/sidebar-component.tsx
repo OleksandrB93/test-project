@@ -13,7 +13,7 @@ const SidebarComponent = () => {
           <s.ButtonsGroup>
             <NotificationIcon />
             <CogIcon />
-            <img src="src/assets/images/ava.png" alt="" />
+            <img src="/images/ava.png" alt="" />
           </s.ButtonsGroup>
         </s.SidebarContent>
       </s.Sidebar>

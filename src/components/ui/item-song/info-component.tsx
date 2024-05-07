@@ -9,7 +9,7 @@ const InfoComponent = () => {
   return (
     <div className="flex gap">
       <s.ArtistImage>
-        <img src="./assets/images/artist_image.png" alt="artist" />
+        <img src="/images/artist_image.png" alt="artist" />
         <button>
           <FaPlay size={12} />
         </button>

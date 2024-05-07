@@ -26,7 +26,7 @@ const RelatedSoundsComponent = () => {
       </s.Title>
       <s.Notify>
         <span>
-          <img src="src/assets/images/dins.png" alt="din-don" />
+          <img src="/images/dins.png" alt="din-don" />
         </span>
         <p>Notify me when these features start working</p>
         <button>Notify Me</button>
