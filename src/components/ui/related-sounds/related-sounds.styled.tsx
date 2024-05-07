@@ -99,7 +99,7 @@ export const Followed = styled.div`
   p {
     display: flex;
     span {
-      margin: 0 10px;
+      margin: 0 5px;
       color: var(--accent-color);
     }
   }

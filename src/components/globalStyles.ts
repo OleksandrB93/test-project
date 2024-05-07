@@ -22,13 +22,6 @@ const GlobalStyle = createGlobalStyle`
     --transition: all 0.250s ease-in-out;
   }
 
-  @font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    src: url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
-  }
-
     body{
       background-color: var(--background);
       color: var(--foreground);
