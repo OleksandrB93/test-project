@@ -1,6 +1,4 @@
-import React from "react";
-
-//
+import { useEffect, useState } from "react";
 
 const options = {
   elementType: ["line", "area", "bar"],
@@ -102,7 +100,7 @@ export default function useChartConfig({
   tooltipGroupingMode?: TooltipGroupingMode;
   snapCursor?: boolean;
 }) {
-  const [state, setState] = React.useState({
+  const [state, setState] = useState({
     count,
     resizable,
     canRandomize,
@@ -125,7 +123,7 @@ export default function useChartConfig({
     data: makeDataFrom(dataType, series, datums, useR),
   });
 
-  React.useEffect(() => {
+  useEffect(() => {
     setState((old) => ({
       ...old,
       data: makeDataFrom(dataType, series, datums, useR),
